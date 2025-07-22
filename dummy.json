@@ -1,0 +1,10 @@
+{'ids': [['5682685371973091341', '475457997292158963', '-3964385830727600882', '-7631156681621496710', '-3852916016491731947']], 'embeddings': [array([[-0.00882865,  0.00695273,  0.03408352, ...,  0.01471419,
+         0.02467783,  0.01243118],
+       [ 0.00571973, -0.00201865,  0.05851232, ...,  0.03829055,
+         0.01066481, -0.0012711 ],
+       [ 0.00792796, -0.00487908,  0.03334031, ...,  0.04845608,
+        -0.01692732, -0.00726686],
+       [-0.00729844,  0.01013146,  0.03576707, ...,  0.03397312,
+         0.00501386, -0.01445128],
+       [ 0.02907364,  0.00896642,  0.03861226, ...,  0.04243284,
+        -0.00320881, -0.00262095]], shape=(5, 768))], 'documents': [['WPI. >?', 'Welcome to WPI!', 'WPI Services & Resources', "WPI's Got What?", 'WELCOME TO WPI! CONTACT']], 'uris': None, 'included': ['embeddings', 'metadatas', 'documents', 'distances'], 'data': None, 'metadatas': [[{'section_type': '', 'source_file': 'student-experience_community_voices_kathleen-m.pdf', 'section_number': '', 'type': 'UncategorizedText', 'page_number': 2, 'text': 'WPI. >?', 'section_title': ''}, {'type': 'Title', 'source_file': 'student-experience_first-year-experience_get-ready.pdf', 'text': 'Welcome to WPI!', 'section_title': '', 'section_type': '', 'page_number': 1, 'section_number': ''}, {'section_type': '', 'type': 'Title', 'page_number': 1, 'section_number': '', 'text': 'WPI Services & Resources', 'section_title': '', 'source_file': 'student-experience_health-counseling_counseling-services_self-help_suicide.pdf'}, {'text': "WPI's Got What?", 'section_title': '', 'source_file': 'student-experience_getting-involved_clubs-organizations.pdf', 'section_number': '', 'page_number': 1, 'section_type': '', 'type': 'Title'}, {'section_number': '', 'section_title': '', 'source_file': 'student-experience_first-year-experience.pdf', 'page_number': 1, 'section_type': '', 'text': 'WELCOME TO WPI! CONTACT', 'type': 'Title'}]], 'distances': [[0.3177306652069092, 0.3590163588523865, 0.3642699122428894, 0.3748775124549866, 0.39044806361198425]]}
