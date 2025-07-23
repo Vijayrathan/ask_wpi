@@ -69,11 +69,13 @@ if __name__ == '__main__':
             for text in merged_chunks:
                 if len(text.strip()) > 0:  
                     print(f"Text of length {len(text)}, starting with {text[:10]}")
-                    metadata = getattr(el, "metadata", {})
+                    metadata = getattr(text, "metadata", {})
+                    if hasattr(metadata, "category") and getattr(metadata, "category", None) == "Title":
+                        continue
                     meta={
                         "text": text,
                         "page_number": metadata.page_number if hasattr(metadata, "page_number") else None,
-                        "type": el.category,
+                        "type": metadata.category,
                         "source_file": file,
                         "section_title": getattr(metadata, "section_title", None),
                         "section_type": getattr(metadata, "section_type", None),
