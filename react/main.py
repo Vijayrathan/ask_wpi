@@ -14,6 +14,8 @@ from pprint import pprint
 #######################
 
 class AskWPIReactPrompt:
+    # prompt text source:  https://github.com/arunpshankar/react-from-scratch/blob/main/data/input/react.txt
+
     PROMPT = """
 You are a ReAct (Reasoning and Acting) agent tasked with answering the following query:
 
@@ -65,7 +67,7 @@ Remember:
     def update_history(self, text):
         print(f"history text: {text}")
         self.history += f" {text}"
-        print(f"updaterd history: {self.history}")
+        print(f"updated history: {self.history}")
 
 ###############################################
 # utility functions to talk to the DB and LLM #
@@ -152,9 +154,3 @@ if __name__ == "__main__":
     query="Who is the dean of the college of engineering?"
     result = run_react_loop(query)
     print(f"\n\nResult\n------\n{result}\n")
-
-    #results=retrieve(query)
-    #pprint(results)
-
-    # askwpi_llm_prompt = AskWPIReactPrompt(query)
-    # print(askwpi_llm_prompt.get_prompt())
