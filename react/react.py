@@ -130,9 +130,9 @@ def run_react_loop(query):
             response_json = chat_response.choices[0].message.content.removeprefix('```json\n')
             response_json = response_json.removesuffix('\n```')
             print(f"\n\nRaw Chat Response: {chat_response}")
-            #print(f"\n\nChat Response: {response_json}")
+            print(f"\n\nChat Response: {response_json}")
 
-            decoded_response = json.loads(response_json)
+            decoded_response = json.loads(response_json, strict=False)
             print("\n\nResponse dict:\n")
             pprint(decoded_response)
 
@@ -147,6 +147,13 @@ def run_react_loop(query):
                 return decoded_response['answer']
             else:
                 return "Invalid LLM response format"
+
+##########################
+# API entry point for UI #
+##########################
+
+def run_react(query):
+    return run_react_loop(query)
 
 if __name__ == "__main__":
     load_dotenv()
