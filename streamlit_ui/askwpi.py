@@ -1,5 +1,6 @@
 import sys
 import os
+import string
 import streamlit as st
 from dotenv import load_dotenv
 
@@ -7,6 +8,11 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(current_dir, '..'))
 
 from react import react
+
+def remove_non_printable(text):
+    printable_chars = set(string.printable)
+    translation_table = {ord(char): None for char in text if char not in printable_chars}
+    return text.translate(translation_table)
 
 load_dotenv()
 
@@ -29,5 +35,5 @@ if query:
         answer = "Fine-Tuned LLM is not implemented in the UI yet."
 
     st.subheader("Answer")
-    st.markdown(answer)
+    st.markdown(remove_non_printable(answer))
 
