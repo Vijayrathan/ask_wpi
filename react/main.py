@@ -65,9 +65,9 @@ Remember:
         return self.PROMPT.format(query=self.query, history=self.history)
 
     def update_history(self, text):
-        print(f"history text: {text}")
+        #print(f"history text: {text}")
         self.history += f" {text}"
-        print(f"updated history: {self.history}")
+        #print(f"updated history: {self.history}")
 
 ###############################################
 # utility functions to talk to the DB and LLM #
@@ -86,7 +86,7 @@ def retrieve(query):
         query_embedding = get_embedding(query)
         results=collection.query(
             query_embeddings=query_embedding,
-            n_results=3,
+            n_results=5,
             include=["embeddings", "metadatas", "documents", "distances"]
         )
         return results
@@ -99,7 +99,7 @@ def retrieve(query):
 ###########################################
 
 def run_react_loop(query):
-    max_iterations = 3
+    max_iterations = 5
     iteration = 0
 
     api_key = os.getenv("MISTRAL_API_KEY")
@@ -109,7 +109,7 @@ def run_react_loop(query):
 
     # create the prompt
     askwpi_llm_prompt = AskWPIReactPrompt(query)
-    print(askwpi_llm_prompt.get_prompt())
+    #print(askwpi_llm_prompt.get_prompt())
 
     while iteration <= max_iterations:
         iteration += 1
@@ -129,7 +129,7 @@ def run_react_loop(query):
             chat_response = llm_client.chat.complete(model=model, messages=chat_messages)
             response_json = chat_response.choices[0].message.content.removeprefix('```json\n')
             response_json = response_json.removesuffix('\n```')
-            #print(f"\n\nRaw Chat Response: {chat_response}")
+            print(f"\n\nRaw Chat Response: {chat_response}")
             #print(f"\n\nChat Response: {response_json}")
 
             decoded_response = json.loads(response_json)
@@ -142,7 +142,7 @@ def run_react_loop(query):
                 # query the DB - ReACT ACT
                 results=retrieve(decoded_response['action']['input'])
                 pprint(results)
-                askwpi_llm_prompt.update_history(results['documents'][0][0])
+                askwpi_llm_prompt.update_history(" ".join(results['documents'][0]))
             elif 'answer' in decoded_response:
                 return decoded_response['answer']
             else:
@@ -151,6 +151,7 @@ def run_react_loop(query):
 if __name__ == "__main__":
     load_dotenv()
 
-    query="Who is the dean of the college of engineering?"
+    #query="Who is the dean of the college of engineering?"
+    query="What are the dining options at WPI?"
     result = run_react_loop(query)
     print(f"\n\nResult\n------\n{result}\n")
