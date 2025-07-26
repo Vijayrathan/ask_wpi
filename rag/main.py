@@ -1,11 +1,12 @@
 from .generator import generate_response
 from .retriever import retrieve, rerank
 
-if __name__ == "__main__":
-    
-    query="What are the dining options at WPI?"
+
+def run_rag(query):
     results=retrieve(query)
     context=rerank(query, results)
-    print(f"Context: {context}")
     response=generate_response(context, query)
-    print(response)
+    return response
+
+if __name__ == "__main__": 
+    print(run_rag("What is the dining options at WPI?"))
