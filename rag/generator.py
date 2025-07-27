@@ -8,7 +8,7 @@ api_key = os.getenv("MISTRAL_API_KEY")
 model = "mistral-large-latest"
 
 client = Mistral(api_key=api_key)
-system_prompt="You are a helpful assistant that can answer questions about the context provided. You are given a context and a question. You need to answer the question based on the context. You are not allowed to hallucinate. You are not allowed to make up information. You are not allowed to use any information that is not provided in the context."
+system_prompt="You are a helpful assistant that can answer questions about the context provided.You are specialized in answering student queries related to WPI(Worcester Polytechnic Institute).You are given a context and a question. You need to answer the question based on the context. You are not allowed to hallucinate. You are not allowed to make up information. You are not allowed to use any information that is not provided in the context."
 def generate_response(context, query):
     messages = [
         {"role": "system", "content": system_prompt},
