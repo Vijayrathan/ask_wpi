@@ -1,0 +1,39 @@
+{
+  "test_cases": [
+ 
+    {
+      "query": "Are all college majors compatible with Army ROTC?",
+      "ground_truth": "Army ROTC Cadets are allowed to major in nearly all academic areas."
+    },
+    {
+      "query": "Are beds adjustable in East Hall housing?",
+      "ground_truth": "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed."
+    },
+    {
+      "query": "Bursar and Financial Aid: What’s the difference?",
+      "ground_truth": "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student’s financial aid package might be answered in these"
+    },
+    {
+      "query": "Can beds be bunked in Institute Hall housing?",
+      "ground_truth": "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office."
+    },
+    {
+      "query": "Can I bring a car to campus?",
+      "ground_truth": "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280."
+    },
+    {
+      "query": "What is the Digital Millennium Copyright Act (DMCA) at WPI?",
+      "ground_truth": "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls."
+    },
+    {
+      "query": "Who is the chair of Administrative Policy Group?",
+      "ground_truth": "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President"
+    },
+    {
+      "query": "Does Elbridge House have air conditioning?",
+      "ground_truth": "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted."
+    }
+
+
+  ]
+}

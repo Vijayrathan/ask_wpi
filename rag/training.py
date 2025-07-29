@@ -75,7 +75,7 @@ if __name__ == '__main__':
                     meta={
                         "text": text,
                         "page_number": metadata.page_number if hasattr(metadata, "page_number") else None,
-                        "type": metadata.category,
+                        "type": getattr(metadata, "category", "NarrativeText") if hasattr(metadata, "category") else "NarrativeText",
                         "source_file": file,
                         "section_title": getattr(metadata, "section_title", None),
                         "section_type": getattr(metadata, "section_type", None),

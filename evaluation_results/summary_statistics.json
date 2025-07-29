@@ -1,0 +1,41 @@
+{
+  "RAG": {
+    "Single Prompt": {
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.8937756717205048,
+      "f1_score": 0.6248162705942593
+    },
+    "Multi-turn": {
+      "consistency": 0.5609463639557362,
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.7050177957862616,
+      "f1_score": 0.32283182503770735
+    }
+  },
+  "REACT": {
+    "Single Prompt": {
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.8708543442189693,
+      "f1_score": 0.6086810236460364
+    },
+    "Multi-turn": {
+      "consistency": 0.568188302218914,
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.7165626026690006,
+      "f1_score": 0.34691409544350715
+    }
+  },
+  "FINETUNED": {
+    "Single Prompt": {
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.7545836642384529,
+      "f1_score": 0.22863619770836263
+    },
+    "Multi-turn": {
+      "consistency": 0.4930165186524391,
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.6024391390383244,
+      "f1_score": 0.13815773645901097
+    }
+  }
+}

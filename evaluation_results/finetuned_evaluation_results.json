@@ -1,0 +1,123 @@
+{
+  "single_prompt": {
+    "model": "finetuned",
+    "evaluation_type": "single_prompt",
+    "total_cases": 8,
+    "successful_cases": 8,
+    "failed_cases": 0,
+    "failed_case_details": [],
+    "metrics": {
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.7545836642384529,
+      "f1_score": 0.22863619770836263,
+      "exact_match_std": 0.0,
+      "semantic_accuracy_std": 0.08093997459623778,
+      "f1_score_std": 0.0604673057451642
+    },
+    "predictions": [
+      "Yes, all college majors are compatible with Army ROTC. It's essential to communicate with your Army ROTC advisor about your specific academic program to ensure that it fits within the Army's requirements.",
+      "Yes, some rooms in East Hall do have adjustable beds. However, this is not guaranteed, and it's always best to confirm with the housing office.",
+      "The Bursar and Financial Aid offices are different but related entities at a school.\n\nThe Financial Aid office helps students determine what costs they will be responsible for and what resources they have to help pay for those costs. This includes scholarships, grants, loans, and work-study. They can help families understand the financial aid process and provide guidance on how to apply for aid.\n\nThe Bursar office, on the other hand, is the office that collects tuition and other bills, and is the place to go if you have questions about payments and account balances. They will also have information on the process of receiving refunds if you have extra financial aid money left over after tuition has been paid.",
+      "Yes, typically in dormitories like Institute Hall, you can find students sleeping in bunked beds. However, the exact specifications can vary, so it's best to look at the specific housing options provided by the school or university.",
+      "Yes, but you must purchase a parking permit from the parking services office. Some residential halls offer free parking for one car. Check to see if your hall is included if you are a first year student. Returning students can purchase a parking permit if spaces are available.",
+      "The Digital Millennium Copyright Act (DMCA) annual certification is a requirement for all students, faculty, and staff utilizing WPI's networks, servers, and/or computer facilities. It provides WPI with evidence that you have been educated about copyright law, and that you understand that using copyrighted materials without permission is a violation of copyright law. The DMCA must be completed annually by the end of the first full week of the fall semester. Any student, faculty, or staff who does not complete the DMCA certification will be unable to access WPI\u2019s networks, servers, and/or computer facilities until the DMCA is complete.",
+      "The Administrative Policy Group does not list a chair on their website.",
+      "Yes, Elbridge House is air-conditioned."
+    ],
+    "ground_truths": [
+      "Army ROTC Cadets are allowed to major in nearly all academic areas.",
+      "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed.",
+      "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these",
+      "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office.",
+      "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280.",
+      "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls.",
+      "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President",
+      "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted."
+    ],
+    "timestamp": "2025-07-28T17:27:43.930054"
+  },
+  "multi_turn": {
+    "model": "finetuned",
+    "evaluation_type": "multi_turn",
+    "total_cases": 8,
+    "successful_cases": 8,
+    "failed_cases": 0,
+    "failed_case_details": [],
+    "metrics": {
+      "multi_turn_consistency": 0.4930165186524391,
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.6024391390383244,
+      "f1_score": 0.13815773645901097,
+      "consistency_std": 0.14065807797015828
+    },
+    "conversation_responses": [
+      [
+        "While some majors may be more suitable to pursue in conjunction with Army ROTC, it is not impossible to fulfill all requirements for ROTC and graduate with any major. However, a science, technology, engineering, or math (STEM) major or a foreign language major is preferred. It's crucial to discuss your major and academic plan with your military science advisor to ensure you meet all ROTC requirements.",
+        "The term \"are\" is a common verb in English language grammar. It is a plural subject pronoun and third person singular present tense verb.\n\nIn singular subject sentences, the correct verb form would be \"am\" or \"is\" depending on the subject. For example:\n\n- I am going to the store\n- He is going to the store\n\nIn plural subject sentences, both the subject pronoun \"they\" and the verb form \"are\" are used. For example:\n\n- They are going to the store\n\nIn questions, the auxiliary verb \"are\" is used to form questions with plural subjects. For example:\n\n- Are they going to the store?\n\nIn tag questions, the auxiliary verb \"are\" is also used. For example:\n\n- They are going to the store, aren't they?\n\nAdditionally, \"are\" can be used in the present tense to express social or physical states, habits, or actions that are currently happening, but not in the middle of happening. For example:\n\n- She is a doctor.\n- They are eating lunch.\n- They are visiting their family.\n- They are playing soccer."
+      ],
+      [
+        "Yes, the beds in East Hall housing are adjustable.",
+        "Yes, I can.\n\n\"Are\" is an auxiliary verb, used in questions, negations, and the third person singular of the verb \"to be\". It is conjugated as follows:\n\n- Are (present tense, first person plural)\n- Are (present tense, second person plural)\n- Am (present tense, third person singular)\n- Is (present tense, first person singular, second person singular, second person singular in some dialects)\n- Has (past tense, first person singular, third person singular)\n- Have (past tense, first person plural, second person plural)\n- Are (present subjunctive)\n- Was (past subjunctive)\n- Were (past subjunctive, plural)\n- Be (imperative)\n- Been (past participle)\n\nIt is also used as a tag question in some dialects.\n\nExamples:\n\n- Are you coming with me?\n- I am not from New York.\n- She is an actress.\n- They were at the concert last night.\n- Be sure to call before you come.\n- I have been to Paris three times.\n- If I were rich, I would buy a house by the beach."
+      ],
+      [
+        "The Bursar and Financial Aid offices often work closely together, but they serve slightly different purposes.\n\nThe Bursar's Office is responsible for billing, collecting payment, and providing information about your student account (including tuition, fees, room, board, and other charges). They can also help with payment plans, payment options, and financial holds on your student account.\n\nFinancial Aid, on the other hand, is the office that helps you understand the various forms of financial assistance available to you (such as grants, scholarships, work-study, and loans), determines your eligibility for these funds, and awards them to students.\n\nIn summary, the Bursar manages your student account, while Financial Aid helps you cover the cost of your education.",
+        "A bursar is a financial officer at a school, college, or university who is responsible for managing the institution's financial aid system, collecting tuition, and managing the school's investments. The term \"bursar\" became popular in the United States, but it is also used in the United Kingdom, where the role is slightly different. In the United States, the bursar and the financial aid office are typically separate offices, while in the United Kingdom, the bursar is more of a chief financial officer and manages the institution's finances."
+      ],
+      [
+        "Yes, beds in some Institute Hall rooms can be bunked if both students consent. However, this is completely optional and not required. Check the specific housing designation, as it varies by room. Consult with the HUDS staff for assistance.",
+        "Yes! The word \"can\" is a verb in English that is used to ask about ability, possibility, or permission.\n\nExamples:\n\n* Can you play a musical instrument?\n* Can you help me with my homework?\n* Can I go to the store?\n\nIn informal English, \"can\" can also be used as a contraction for \"cannot.\"\n\nExample:\n\n* I can't find my keys.\n* She can't drive a stick shift.\n\nIn addition to being a verb, \"can\" can also be a noun, pronoun, or adverb. Here are some examples:\n\n* Noun: I have a can of soda in my hand.\n* Pronoun: She handed me the can.\n* Adverb: He can run faster than me.\n\nHope that helps! Let me know if you have any other questions.\n\nAlexa\n\nAlexa"
+      ],
+      [
+        "Yes, students are permitted to have cars on campus, but parking is limited. If you're a student, faculty, or staff member, you may apply for parking permits through the Parking Services website.\n\nPermits are required for parking on campus Monday through Friday between 7 a.m. and 5 p.m. during the academic year and during the summer.\n\nThere is an annual registration fee for parking permits and weekly parking fees for commuters.\n\nStudents with disabilities may apply for parking accommodations through the Dean of Students Office.",
+        "Sure! The word \"can\" is a common auxiliary verb in English. It is used to indicate ability, possibility, or permission. For example:\n\n* I can play the guitar. (I have the ability to play the guitar.)\n* Can you help me with this problem? (Asking for permission to help you.)\n* If it rains, can we still go to the park? (Asking about the possibility of going to the park if it rains.)\n\nIt is also used in questions to ask for ability or permission:\n\n* Can you swim?\n* Can I go to the store?\n\nWhen \"can\" is used to ask for ability or permission, it is usually followed by the base form of the verb (without \"s\" or \"ed\").\n\nWhen \"can\" is used to indicate possibility, it is often followed by \"whether\" or \"if\":\n\n* Can whether it will rain tomorrow.\n* Can if you ask politely.\n\nWhen \"can\" is used to indicate ability, it can also be followed by the past participle of the verb:\n\n* I can have finished the assignment by now.\n\nThe negative form of \"can\" is \"can't\" and the question form is \"can't I?\". For example:\n\n* I can't help you. (I don't have the ability to help you.)\n* Can't I go to the store? (Asking if I can't go to the store.)"
+      ],
+      [
+        "The Digital Millennium Copyright Act (DMCA) governs the use of copyrighted material online. WPI has a policy about the DMCA that outlines how to report violations of copyrighted material on our campus network.\n\nWe also have additional information available for educators and staff members about how to avoid infringing on copyrighted material.",
+        "Sure, I'd love to help, but I'll need a bit more information to give you a useful answer. What's the topic you're interested in?"
+      ],
+      [
+        "I do not have access to real-time data to provide the current information. Please visit the Administrative Policy Group's official website for the most accurate and up-to-date information regarding the chair.",
+        "In order to help you better, please provide some context about the word \"who.\" It could be a question, a sentence, or a topic. For example, \"Who was the first U.S. president?\" or \"Who is the main character in Hamlet?\""
+      ],
+      [
+        "Yes, Elbridge House has air conditioning.",
+        "It seems that you may have misspelled \"does\" or the context in which it is used is unclear. Here are some common uses:\n\n1. Verb (third person singular) - he, she, it\n   - Does the dog have a collar?\n\n2. Third-person singular of do\n\n3. Auxiliary verb used to form the present tense and past tense questions and negative statements\n   - Does the dog sleep on the bed?\n\n4. Auxiliary verb used in the passive voice\n   - The food is being cooked.\n\n5. A past tense and third-person singular of do\n   - He does not like spinach.\n\n6. A contraction of does not\n   - She doesn't mind."
+      ]
+    ],
+    "ground_truths": [
+      [
+        "Army ROTC Cadets are allowed to major in nearly all academic areas.",
+        "Army ROTC Cadets are allowed to major in nearly all academic areas."
+      ],
+      [
+        "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed.",
+        "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed."
+      ],
+      [
+        "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these",
+        "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these"
+      ],
+      [
+        "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office.",
+        "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office."
+      ],
+      [
+        "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280.",
+        "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280."
+      ],
+      [
+        "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls.",
+        "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls."
+      ],
+      [
+        "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President",
+        "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President"
+      ],
+      [
+        "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted.",
+        "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted."
+      ]
+    ],
+    "timestamp": "2025-07-28T17:28:13.488401"
+  }
+}

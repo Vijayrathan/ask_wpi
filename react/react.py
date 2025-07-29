@@ -20,6 +20,7 @@ class AskWPIReactPrompt:
 You are a ReAct (Reasoning and Acting) agent tasked with answering the following query:
 
 Query: {query}
+iteration: {iteration}
 
 Your goal is to reason about the query and decide on the best course of action to answer it accurately.
 
@@ -52,17 +53,18 @@ Remember:
 - Be thorough in your reasoning.
 - Use tools when you need more information.
 - Always base your reasoning on the actual observations from tool use.
-- If a tool returns no results or fails, acknowledge this and consider using a different tool or approach.
-- Provide a final answer only when you're confident you have sufficient information.
+- Provide a final answer when you're confident you have sufficient information.
+- Maximum iterations is 10, we should have required information in 10 iterations, so return the final answer in the 10th iteration.
 - If you cannot find the necessary information after using available tools, admit that you don't have enough information to answer the query confidently.
 """
 
     def __init__(self, query):
         self.query = query
         self.history = ""
+        self.iteration = 0
 
     def get_prompt(self):
-        return self.PROMPT.format(query=self.query, history=self.history)
+        return self.PROMPT.format(query=self.query, history=self.history, iteration=self.iteration)
 
     def update_history(self, text):
         #print(f"history text: {text}")
@@ -81,7 +83,7 @@ def get_embedding(chunk):
 
 def retrieve(query):
     try:
-        db_client=chromadb.PersistentClient(path='../chroma_db')
+        db_client=chromadb.PersistentClient(path='./chroma_db')
         collection=db_client.get_collection("wpi_docs")
         query_embedding = get_embedding(query)
         results=collection.query(
@@ -99,8 +101,7 @@ def retrieve(query):
 ###########################################
 
 def run_react_loop(query):
-    max_iterations = 5
-    iteration = 0
+    max_iterations = 10
 
     api_key = os.getenv("MISTRAL_API_KEY")
     model = "mistral-large-latest"
@@ -111,11 +112,11 @@ def run_react_loop(query):
     askwpi_llm_prompt = AskWPIReactPrompt(query)
     #print(askwpi_llm_prompt.get_prompt())
 
-    while iteration <= max_iterations:
-        iteration += 1
-        print(f"\n----> iteration number {iteration}")
+    while askwpi_llm_prompt.iteration <= max_iterations:
+        askwpi_llm_prompt.iteration += 1
+        print(f"\n----> iteration number {askwpi_llm_prompt.iteration}")
 
-        if iteration > max_iterations:
+        if askwpi_llm_prompt.iteration > max_iterations:
             return "Reached max interations."
         else:
             # query the LLM - ReACT THINK

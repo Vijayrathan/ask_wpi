@@ -1,0 +1,350 @@
+{
+  "rag_single": {
+    "model": "rag",
+    "evaluation_type": "single_prompt",
+    "total_cases": 8,
+    "successful_cases": 8,
+    "failed_cases": 0,
+    "failed_case_details": [],
+    "metrics": {
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.8937756717205048,
+      "f1_score": 0.6248162705942593,
+      "exact_match_std": 0.0,
+      "semantic_accuracy_std": 0.0759778565216766,
+      "f1_score_std": 0.32442084670430443
+    },
+    "predictions": [
+      "Yes, Army ROTC Cadets are allowed to major in nearly all academic areas.",
+      "Yes, beds are adjustable in East Hall housing. The context specifies that all beds in East Hall can be adjusted up or down, and residents are responsible for adjusting the bed height. The beds can be adjusted to the top level, allowing the dresser to fit underneath the bed.",
+      "Based on the provided context, here's the difference between the Bursar and Financial Aid offices at WPI:\n\n- **Office of Financial Aid**: This office provides guidance and support to students regarding:\n  - Understanding their financial aid package\n  - Securing public and private loans\n  - Understanding the pros and cons of borrowing\n  - They process financial aid, including need-based packages, merit-based scholarships, on-campus employment, and loan programs.\n\n- **Bursar's Office** (also known as Student Accounts): This office handles:\n  - Day-to-day billing at WPI\n  - Charging and collection of various fees including tuition, housing, meal plans, health insurance, and other relevant charges\n  - They do not process financial aid, but they handle the billing aspects related to it.\n\nIn summary, the Office of Financial Aid deals with the aid itself, while the Bursar's Office handles the billing and collection of fees.",
+      "Yes, beds in Institute Hall housing can be bunked. Residents need to ask for pins to bunk the bed but are responsible for un-bunking the bed at the end of the year and returning the pins to the office.",
+      "To provide the most accurate information, I would need more details about the specific policies of Worcester Polytechnic Institute (WPI) regarding vehicles on campus. However, based on general knowledge of university policies, many institutions allow students to bring cars to campus, often with certain regulations and requirements such as registering the vehicle, obtaining a parking permit, and adhering to specific parking rules.\n\nFor the most accurate and up-to-date information, I would recommend checking WPI's official website or contacting their campus services or student affairs office directly. They can provide you with the specific guidelines and procedures for bringing a car to campus.",
+      "Based on the provided context, the Digital Millennium Copyright Act (DMCA) at Worcester Polytechnic Institute (WPI) is a significant component of the university's copyright policy. Here are some key points about the DMCA at WPI:\n\n1. **Compliance**: WPI expects all members of its community to comply with the DMCA, which is part of the United States copyright laws.\n\n2. **Education**: WPI maintains a website to educate its community about the DMCA and other aspects of copyright law, such as fair use and the TEACH Act.\n\n3. **Online Service Provider (OSP) Status**: WPI is considered an OSP under the DMCA. This means the university has certain legal duties to comply with in order to limit its legal liabilities in case a user of its services violates copyright laws.\n\n4. **Potential Consequences**: Access to some or all of the university's computer systems or information resources may be terminated if copyright law appears to have been violated, and other disciplinary actions may be taken according to standard university policy.\n\nThe context does not provide specific details about how WPI implements the DMCA on a procedural level, such as the process for reporting copyright infringements or how the university responds to alleged copyright infringements. For such specific information, you might need to contact WPI directly or visit their copyright policy website.",
+      "The context provided does not specify a single chair for the Administrative Policy Group (APG). Instead, it mentions two co-chairs:\n\n- Michael Horan (Executive Vice President and CFO)\n- Andrew Sears (Provost and Senior Vice President)\n\nThese two individuals serve as the co-chairs of the APG at Worcester Polytechnic Institute (WPI).",
+      "No, Elbridge House does not have air conditioning. Residents are encouraged to bring fans for their space, and personal air conditioners are not permitted.\n\nSource: https:/Awww.wpi.edu/faq/does-elbridge-house-have-air-conditioning"
+    ],
+    "ground_truths": [
+      "Army ROTC Cadets are allowed to major in nearly all academic areas.",
+      "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed.",
+      "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these",
+      "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office.",
+      "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280.",
+      "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls.",
+      "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President",
+      "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted."
+    ],
+    "timestamp": "2025-07-28T17:17:50.867962"
+  },
+  "rag_multi": {
+    "model": "rag",
+    "evaluation_type": "multi_turn",
+    "total_cases": 8,
+    "successful_cases": 8,
+    "failed_cases": 0,
+    "failed_case_details": [],
+    "metrics": {
+      "multi_turn_consistency": 0.5609463639557362,
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.7050177957862616,
+      "f1_score": 0.32283182503770735,
+      "consistency_std": 0.14662806500329859
+    },
+    "conversation_responses": [
+      [
+        "Yes, Army ROTC Cadets are allowed to major in nearly all academic areas.",
+        "It seems like your question got cut off. Could you please provide more information or clarify what you are asking about? I'm here to help with questions related to Worcester Polytechnic Institute (WPI), but I need a bit more context to provide a useful response."
+      ],
+      [
+        "Yes, beds are adjustable in East Hall housing. The context specifies that all beds in East Hall can be adjusted up or down, and residents are responsible for adjusting the bed height. The beds can be adjusted to the top level, allowing the dresser to fit underneath the bed.",
+        "It seems like your question got cut off. Could you please provide more details or clarify what you are asking about? I'm here to help with information related to Worcester Polytechnic Institute (WPI), but I need a bit more context to provide a useful response."
+      ],
+      [
+        "Based on the provided context, here's the difference between the Bursar and Financial Aid at WPI:\n\n- **Office of Financial Aid**: This office provides guidance and support to students to help them understand their financial aid package, secure public and private loans, and understand the pros and cons of borrowing. They process financial aid, offering need-based and merit-based scholarships, on-campus employment, and loan programs.\n\n- **Bursar's Office** (also known as Student Accounts): This office handles the charging and collection of various fees, including tuition, housing, meal plans, health insurance, and other relevant charges. They manage day-to-day billing at WPI.\n\nIn summary, the Office of Financial Aid deals with helping students with financial aid and planning, while the Bursar's Office handles the billing and collection of fees.",
+        "I'm here to help with information about WPI, but I need more context to provide the most accurate details about the bursar. At WPI, the Bursar's Office is typically responsible for managing student accounts, processing payments, and handling billing-related inquiries. Could you please specify what details you are looking for? For example, are you interested in payment methods, deadlines, or specific fees? This will help me give you the most relevant information."
+      ],
+      [
+        "Yes, beds in Institute Hall housing can be bunked. Residents need to request pins to bunk the beds, but they are responsible for un-bunking the beds at the end of the year and returning the pins to the office.",
+        "It seems like your question might be too vague or unrelated to WPI. Could you please provide more context or specify what kind of information you're looking for about \"can\"? This will help me give you a more accurate and helpful response."
+      ],
+      [
+        "To provide you with the most accurate information, I would need more details regarding the specific policies of WPI (Worcester Polytechnic Institute). However, generally, many universities allow students to bring cars to campus, but there are often specific regulations and requirements, such as registering the vehicle with the campus police or parking services, obtaining a parking permit, and adhering to designated parking areas.\n\nPlease provide more information or check WPI's official website or contact their student services for the most up-to-date and specific information regarding their policy on bringing cars to campus.",
+        "It seems like your question about \"can\" might be too vague for me to provide a specific answer. Could you please provide more context or details about what you're asking? For example, are you asking about the word \"can,\" a can as a container, or something else? With more information, I can give you a more accurate and helpful response."
+      ],
+      [
+        "The Digital Millennium Copyright Act (DMCA) at Worcester Polytechnic Institute (WPI) is a federal law that makes significant changes to copyright law to address issues related to the digitally networked environment. Passed in 1998, the DMCA has five titles, with the first four being particularly relevant to educational institutions like WPI.\n\nWPI is committed to enforcing and protecting copyrights as both a legal and ethical obligation. The university expects all members of its community to adhere to U.S. copyright laws, including the provisions of the DMCA. WPI is considered an Online Service Provider (OSP) under the DMCA, which means it must comply with certain legal duties to limit its liability in case a user of its services violates copyright laws.\n\nThe DMCA at WPI is part of the university's broader copyright policy, which includes educating the community about fair use, the DMCA, and the TEACH Act. The university provides resources and guidelines for copyright compliance, including how to request permission to use copyrighted materials. WPI also outlines potential consequences, such as termination of access to computer systems or other disciplinary actions, for violating copyright laws.\n\nFor more specific information or questions regarding the DMCA at WPI, individuals are encouraged to contact the university through the provided email or phone number.",
+        "It seems like your question got cut off. Could you please provide more details about what you would like to know? I'm here to help with information about Worcester Polytechnic Institute (WPI), so if you have a specific question about the university, please share more details."
+      ],
+      [
+        "The context provided does not specify a single chair for the Administrative Policy Group (APG). Instead, it mentions two co-chairs:\n\n- Michael Horan (Executive Vice President and CFO)\n- Andrew Sears (Provost and Senior Vice President)\n\nThese two individuals serve as the co-chairs of the APG at Worcester Polytechnic Institute (WPI).",
+        "It seems like your question is incomplete, and the provided context does not have any information about WPI that would help me answer your question. Could you please provide more details about who or what you are asking about?"
+      ],
+      [
+        "No, Elbridge House does not have air conditioning. Residents are encouraged to bring fans for their space, and personal air conditioners are not permitted.\n\nThe context provided clearly states: \"Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted.\"",
+        "Based on the provided context, \"DOES\" is not defined or explained. Therefore, I cannot provide more details about what \"DOES\" stands for or represents in relation to WPI. If you have more context or information, please provide it, and I'll do my best to help further."
+      ]
+    ],
+    "ground_truths": [
+      [
+        "Army ROTC Cadets are allowed to major in nearly all academic areas.",
+        "Army ROTC Cadets are allowed to major in nearly all academic areas."
+      ],
+      [
+        "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed.",
+        "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed."
+      ],
+      [
+        "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these",
+        "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these"
+      ],
+      [
+        "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office.",
+        "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office."
+      ],
+      [
+        "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280.",
+        "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280."
+      ],
+      [
+        "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls.",
+        "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls."
+      ],
+      [
+        "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President",
+        "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President"
+      ],
+      [
+        "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted.",
+        "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted."
+      ]
+    ],
+    "timestamp": "2025-07-28T17:18:34.177235"
+  },
+  "react_single": {
+    "model": "react",
+    "evaluation_type": "single_prompt",
+    "total_cases": 8,
+    "successful_cases": 8,
+    "failed_cases": 0,
+    "failed_case_details": [],
+    "metrics": {
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.8708543442189693,
+      "f1_score": 0.6086810236460364,
+      "exact_match_std": 0.0,
+      "semantic_accuracy_std": 0.1634366671472506,
+      "f1_score_std": 0.35589614905744765
+    },
+    "predictions": [
+      "Reached max interations.",
+      "Yes, beds in East Hall housing are adjustable. Residents can adjust the bed height up or down and are responsible for doing so.",
+      "The Office of Financial Aid at WPI provides guidance and support to students regarding their financial aid packages, securing public and private loans, and understanding the pros and cons of borrowing. They help students and families understand the funding options available to them, including need-based financial aid packages, merit-based scholarships, on-campus employment, and loan programs. On the other hand, the Bursar's Office, also known as Student Accounts, manages day-to-day billing at WPI. This includes charging and collecting fees for tuition, housing, meal plans, health insurance, and other relevant charges. In summary, the Office of Financial Aid focuses on helping students secure funding, while the Bursar's Office handles the collection and management of those funds.",
+      "Yes, beds can be bunked in Institute Hall housing. Residents need to ask for pins to bunk the bed but are responsible for un-bunking the bed at the end of the year and returning the pins to the office.",
+      "First-year students who live in residence halls are not permitted to park their vehicles on WPI campus property unless they have been granted special permission by the Chief of the WPI Police due to extenuating emergency circumstances. Individual requests for first-year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking @wpi.edu or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280.",
+      "The Digital Millennium Copyright Act (DMCA) at Worcester Polytechnic Institute (WPI) is part of the university's commitment to enforce and protect copyrights. WPI expects all members of its community to comply with U.S. copyright laws, including updates made by the DMCA. The DMCA at WPI specifically addresses the protection of intellectual property rights and outlines procedures for reporting copyright infringement. If you believe WPI's computer resources are being used in a way that infringes your copyright, you can provide notice of the claimed infringement to WPI's designated agent under the DMCA, Sean O'Connor, Assistant CIO for Information Security, Networking, and Telecom. You can contact him at soconnor@wpi.edu or +1 508-831-5115. For general copyright issues, you can also reach out to copyright@wpi.edu. WPI's policy includes potential termination of access to computer systems or information resources if copyright law appears to have been violated, and other disciplinary actions may be taken according to standard university policy.",
+      "The Administrative Policy Group (APG) at WPI is co-chaired by Michael Horan, who serves as the Executive Vice President and CFO, and Andrew Sears, who is the Provost and Senior Vice President.",
+      "Elbridge House does not have air conditioning. Residents are encouraged to bring fans for their space, and personal air conditioners are not permitted."
+    ],
+    "ground_truths": [
+      "Army ROTC Cadets are allowed to major in nearly all academic areas.",
+      "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed.",
+      "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these",
+      "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office.",
+      "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280.",
+      "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls.",
+      "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President",
+      "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted."
+    ],
+    "timestamp": "2025-07-28T17:21:28.458136"
+  },
+  "react_multi": {
+    "model": "react",
+    "evaluation_type": "multi_turn",
+    "total_cases": 8,
+    "successful_cases": 4,
+    "failed_cases": 4,
+    "failed_case_details": [
+      {
+        "index": 4,
+        "error": "API error occurred: Status 429\n{\"object\":\"error\",\"message\":\"Service tier capacity exceeded for this model.\",\"type\":\"service_tier_capacity_exceeded\",\"param\":null,\"code\":\"3505\"}"
+      },
+      {
+        "index": 5,
+        "error": "'input'"
+      },
+      {
+        "index": 6,
+        "error": "'input'"
+      },
+      {
+        "index": 7,
+        "error": "Expecting value: line 1 column 1 (char 0)"
+      }
+    ],
+    "metrics": {
+      "multi_turn_consistency": 0.568188302218914,
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.7165626026690006,
+      "f1_score": 0.34691409544350715,
+      "consistency_std": 0.21559076886531892
+    },
+    "conversation_responses": [
+      [
+        "Army ROTC Cadets are allowed to major in nearly all academic areas. This means that most college majors are compatible with Army ROTC. However, it is advisable for students to check with their specific ROTC program or academic advisor to confirm compatibility, especially if they are considering a less common or highly specialized major.",
+        "Could you please clarify your question? The phrase 'Can you provide more details about are?' is incomplete or unclear. If you can provide more context or specify what you are asking about, I would be happy to assist you further."
+      ],
+      [
+        "Yes, beds in East Hall housing are adjustable. Residents are responsible for adjusting the bed height.",
+        "The query 'Can you provide more details about are?' appears to be incomplete or unclear. It seems there might be a typo or missing context. Could you please provide more details or clarify the query? This will help in providing an accurate and relevant response."
+      ],
+      [
+        "The Office of Financial Aid provides guidance and support to students regarding their financial aid packages, securing public and private loans, and understanding the pros and cons of borrowing. It helps students navigate the various funding options available to them. On the other hand, the Bursar's Office, also known as Student Accounts, is responsible for the day-to-day billing at WPI. This includes charging and collecting fees for tuition, housing, meal plans, health insurance, and other relevant charges. Questions about financial aid packages should be directed to the Office of Financial Aid, while questions about billing should be directed to the Bursar's Office.",
+        "The Bursar's Office, also known as Student Accounts, is responsible for managing the financial transactions related to a student's education at WPI. This includes charging and collecting fees for tuition, housing, meal plans, health insurance, and other relevant charges. The primary focus of the Bursar's Office is to deliver outstanding service to students, families, and the WPI community. For any questions related to a student's bill, it is recommended to contact the Bursar's Office directly. If you have questions about your student\u2019s financial aid package, those should be directed to the Office of Financial Aid. The Bursar's Office also handles day-to-day billing at WPI and provides updates on housing and meal plan rates, which are published on their website."
+      ],
+      [
+        "Yes, beds can be bunked in Institute Hall housing. Residents need to request pins to bunk the beds and are responsible for un-bunking them at the end of the year and returning the pins to the office.",
+        "Reached max interations."
+      ]
+    ],
+    "ground_truths": [
+      [
+        "Army ROTC Cadets are allowed to major in nearly all academic areas.",
+        "Army ROTC Cadets are allowed to major in nearly all academic areas."
+      ],
+      [
+        "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed.",
+        "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed."
+      ],
+      [
+        "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these",
+        "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these"
+      ],
+      [
+        "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office.",
+        "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office."
+      ]
+    ],
+    "timestamp": "2025-07-28T17:27:33.756048"
+  },
+  "finetuned_single": {
+    "model": "finetuned",
+    "evaluation_type": "single_prompt",
+    "total_cases": 8,
+    "successful_cases": 8,
+    "failed_cases": 0,
+    "failed_case_details": [],
+    "metrics": {
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.7545836642384529,
+      "f1_score": 0.22863619770836263,
+      "exact_match_std": 0.0,
+      "semantic_accuracy_std": 0.08093997459623778,
+      "f1_score_std": 0.0604673057451642
+    },
+    "predictions": [
+      "Yes, all college majors are compatible with Army ROTC. It's essential to communicate with your Army ROTC advisor about your specific academic program to ensure that it fits within the Army's requirements.",
+      "Yes, some rooms in East Hall do have adjustable beds. However, this is not guaranteed, and it's always best to confirm with the housing office.",
+      "The Bursar and Financial Aid offices are different but related entities at a school.\n\nThe Financial Aid office helps students determine what costs they will be responsible for and what resources they have to help pay for those costs. This includes scholarships, grants, loans, and work-study. They can help families understand the financial aid process and provide guidance on how to apply for aid.\n\nThe Bursar office, on the other hand, is the office that collects tuition and other bills, and is the place to go if you have questions about payments and account balances. They will also have information on the process of receiving refunds if you have extra financial aid money left over after tuition has been paid.",
+      "Yes, typically in dormitories like Institute Hall, you can find students sleeping in bunked beds. However, the exact specifications can vary, so it's best to look at the specific housing options provided by the school or university.",
+      "Yes, but you must purchase a parking permit from the parking services office. Some residential halls offer free parking for one car. Check to see if your hall is included if you are a first year student. Returning students can purchase a parking permit if spaces are available.",
+      "The Digital Millennium Copyright Act (DMCA) annual certification is a requirement for all students, faculty, and staff utilizing WPI's networks, servers, and/or computer facilities. It provides WPI with evidence that you have been educated about copyright law, and that you understand that using copyrighted materials without permission is a violation of copyright law. The DMCA must be completed annually by the end of the first full week of the fall semester. Any student, faculty, or staff who does not complete the DMCA certification will be unable to access WPI\u2019s networks, servers, and/or computer facilities until the DMCA is complete.",
+      "The Administrative Policy Group does not list a chair on their website.",
+      "Yes, Elbridge House is air-conditioned."
+    ],
+    "ground_truths": [
+      "Army ROTC Cadets are allowed to major in nearly all academic areas.",
+      "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed.",
+      "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these",
+      "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office.",
+      "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280.",
+      "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls.",
+      "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President",
+      "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted."
+    ],
+    "timestamp": "2025-07-28T17:27:43.930054"
+  },
+  "finetuned_multi": {
+    "model": "finetuned",
+    "evaluation_type": "multi_turn",
+    "total_cases": 8,
+    "successful_cases": 8,
+    "failed_cases": 0,
+    "failed_case_details": [],
+    "metrics": {
+      "multi_turn_consistency": 0.4930165186524391,
+      "exact_match": 0.0,
+      "semantic_accuracy": 0.6024391390383244,
+      "f1_score": 0.13815773645901097,
+      "consistency_std": 0.14065807797015828
+    },
+    "conversation_responses": [
+      [
+        "While some majors may be more suitable to pursue in conjunction with Army ROTC, it is not impossible to fulfill all requirements for ROTC and graduate with any major. However, a science, technology, engineering, or math (STEM) major or a foreign language major is preferred. It's crucial to discuss your major and academic plan with your military science advisor to ensure you meet all ROTC requirements.",
+        "The term \"are\" is a common verb in English language grammar. It is a plural subject pronoun and third person singular present tense verb.\n\nIn singular subject sentences, the correct verb form would be \"am\" or \"is\" depending on the subject. For example:\n\n- I am going to the store\n- He is going to the store\n\nIn plural subject sentences, both the subject pronoun \"they\" and the verb form \"are\" are used. For example:\n\n- They are going to the store\n\nIn questions, the auxiliary verb \"are\" is used to form questions with plural subjects. For example:\n\n- Are they going to the store?\n\nIn tag questions, the auxiliary verb \"are\" is also used. For example:\n\n- They are going to the store, aren't they?\n\nAdditionally, \"are\" can be used in the present tense to express social or physical states, habits, or actions that are currently happening, but not in the middle of happening. For example:\n\n- She is a doctor.\n- They are eating lunch.\n- They are visiting their family.\n- They are playing soccer."
+      ],
+      [
+        "Yes, the beds in East Hall housing are adjustable.",
+        "Yes, I can.\n\n\"Are\" is an auxiliary verb, used in questions, negations, and the third person singular of the verb \"to be\". It is conjugated as follows:\n\n- Are (present tense, first person plural)\n- Are (present tense, second person plural)\n- Am (present tense, third person singular)\n- Is (present tense, first person singular, second person singular, second person singular in some dialects)\n- Has (past tense, first person singular, third person singular)\n- Have (past tense, first person plural, second person plural)\n- Are (present subjunctive)\n- Was (past subjunctive)\n- Were (past subjunctive, plural)\n- Be (imperative)\n- Been (past participle)\n\nIt is also used as a tag question in some dialects.\n\nExamples:\n\n- Are you coming with me?\n- I am not from New York.\n- She is an actress.\n- They were at the concert last night.\n- Be sure to call before you come.\n- I have been to Paris three times.\n- If I were rich, I would buy a house by the beach."
+      ],
+      [
+        "The Bursar and Financial Aid offices often work closely together, but they serve slightly different purposes.\n\nThe Bursar's Office is responsible for billing, collecting payment, and providing information about your student account (including tuition, fees, room, board, and other charges). They can also help with payment plans, payment options, and financial holds on your student account.\n\nFinancial Aid, on the other hand, is the office that helps you understand the various forms of financial assistance available to you (such as grants, scholarships, work-study, and loans), determines your eligibility for these funds, and awards them to students.\n\nIn summary, the Bursar manages your student account, while Financial Aid helps you cover the cost of your education.",
+        "A bursar is a financial officer at a school, college, or university who is responsible for managing the institution's financial aid system, collecting tuition, and managing the school's investments. The term \"bursar\" became popular in the United States, but it is also used in the United Kingdom, where the role is slightly different. In the United States, the bursar and the financial aid office are typically separate offices, while in the United Kingdom, the bursar is more of a chief financial officer and manages the institution's finances."
+      ],
+      [
+        "Yes, beds in some Institute Hall rooms can be bunked if both students consent. However, this is completely optional and not required. Check the specific housing designation, as it varies by room. Consult with the HUDS staff for assistance.",
+        "Yes! The word \"can\" is a verb in English that is used to ask about ability, possibility, or permission.\n\nExamples:\n\n* Can you play a musical instrument?\n* Can you help me with my homework?\n* Can I go to the store?\n\nIn informal English, \"can\" can also be used as a contraction for \"cannot.\"\n\nExample:\n\n* I can't find my keys.\n* She can't drive a stick shift.\n\nIn addition to being a verb, \"can\" can also be a noun, pronoun, or adverb. Here are some examples:\n\n* Noun: I have a can of soda in my hand.\n* Pronoun: She handed me the can.\n* Adverb: He can run faster than me.\n\nHope that helps! Let me know if you have any other questions.\n\nAlexa\n\nAlexa"
+      ],
+      [
+        "Yes, students are permitted to have cars on campus, but parking is limited. If you're a student, faculty, or staff member, you may apply for parking permits through the Parking Services website.\n\nPermits are required for parking on campus Monday through Friday between 7 a.m. and 5 p.m. during the academic year and during the summer.\n\nThere is an annual registration fee for parking permits and weekly parking fees for commuters.\n\nStudents with disabilities may apply for parking accommodations through the Dean of Students Office.",
+        "Sure! The word \"can\" is a common auxiliary verb in English. It is used to indicate ability, possibility, or permission. For example:\n\n* I can play the guitar. (I have the ability to play the guitar.)\n* Can you help me with this problem? (Asking for permission to help you.)\n* If it rains, can we still go to the park? (Asking about the possibility of going to the park if it rains.)\n\nIt is also used in questions to ask for ability or permission:\n\n* Can you swim?\n* Can I go to the store?\n\nWhen \"can\" is used to ask for ability or permission, it is usually followed by the base form of the verb (without \"s\" or \"ed\").\n\nWhen \"can\" is used to indicate possibility, it is often followed by \"whether\" or \"if\":\n\n* Can whether it will rain tomorrow.\n* Can if you ask politely.\n\nWhen \"can\" is used to indicate ability, it can also be followed by the past participle of the verb:\n\n* I can have finished the assignment by now.\n\nThe negative form of \"can\" is \"can't\" and the question form is \"can't I?\". For example:\n\n* I can't help you. (I don't have the ability to help you.)\n* Can't I go to the store? (Asking if I can't go to the store.)"
+      ],
+      [
+        "The Digital Millennium Copyright Act (DMCA) governs the use of copyrighted material online. WPI has a policy about the DMCA that outlines how to report violations of copyrighted material on our campus network.\n\nWe also have additional information available for educators and staff members about how to avoid infringing on copyrighted material.",
+        "Sure, I'd love to help, but I'll need a bit more information to give you a useful answer. What's the topic you're interested in?"
+      ],
+      [
+        "I do not have access to real-time data to provide the current information. Please visit the Administrative Policy Group's official website for the most accurate and up-to-date information regarding the chair.",
+        "In order to help you better, please provide some context about the word \"who.\" It could be a question, a sentence, or a topic. For example, \"Who was the first U.S. president?\" or \"Who is the main character in Hamlet?\""
+      ],
+      [
+        "Yes, Elbridge House has air conditioning.",
+        "It seems that you may have misspelled \"does\" or the context in which it is used is unclear. Here are some common uses:\n\n1. Verb (third person singular) - he, she, it\n   - Does the dog have a collar?\n\n2. Third-person singular of do\n\n3. Auxiliary verb used to form the present tense and past tense questions and negative statements\n   - Does the dog sleep on the bed?\n\n4. Auxiliary verb used in the passive voice\n   - The food is being cooked.\n\n5. A past tense and third-person singular of do\n   - He does not like spinach.\n\n6. A contraction of does not\n   - She doesn't mind."
+      ]
+    ],
+    "ground_truths": [
+      [
+        "Army ROTC Cadets are allowed to major in nearly all academic areas.",
+        "Army ROTC Cadets are allowed to major in nearly all academic areas."
+      ],
+      [
+        "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed.",
+        "All beds in East Hall can be adjusted up or down. Residents are responsible for adjusting the bed height. Beds can be adjusted to the top level, allowing the dresser to fit underneath the bed."
+      ],
+      [
+        "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these",
+        "Office of Financial Aid provides guidance and support to students when it comes to understanding their financial aid package , securing public and private loans, and better understanding the pros and cons of borrowing. The Bursar manages day-to-day billing at WPI. Questions about your student\u2019s financial aid package might be answered in these"
+      ],
+      [
+        "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office.",
+        "Beds in Institute Hall are able to be bunked. Residents need to ask for pins to bunk the bed, but are responsible for un-bunking the bed at the end of the year and returning the pins to the office."
+      ],
+      [
+        "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280.",
+        "First year students who live in residence halls are not permitted to park their vehicles on WPI campus property, unless they have been granted special permission by the Chief of the WPI Police (as a result of extenuating emergency circumstances). Individual requests for first year parking privileges will be considered on a case-by-case basis. A written request must be emailed to the Parking Team at Parking@wpi.edu , or mailed to WPI Police at 100 Institute Road, Worcester, MA 01609-2280."
+      ],
+      [
+        "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls.",
+        "The Digital Millennium Copyright Act (DMCA) makes major changes to copyright law and attempts to address copyright in the digitally networked environment. DMCA was passed by the U.S. Congress on 12 Oct 1998 and signed into Public Law 105-304 on 28 Oct 28 1998 by President William Clinton. The DMCA was designed primarily to sufficiently address the World Intellectual Property Organization (WIPO) treaties signed at the Geneva conference during December of 1996. The law has five titles, the first four of which are of interest to postsecondary educational institutions. (The fifth title creates a new form of protection for the design of vessel hulls."
+      ],
+      [
+        "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President",
+        "The chair of the Administrative Policy Group are Michael Horan (Co-Chair of APG, Executive Vice President and CFO) and Andrew Sears (Co-Chair of APG, Provost and Senior Vice President"
+      ],
+      [
+        "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted.",
+        "Elbridge does not have air conditioning in the house. Residents are encouraged to bring fans for their space. Personal air conditioners are not permitted."
+      ]
+    ],
+    "timestamp": "2025-07-28T17:28:13.488401"
+  }
+}
