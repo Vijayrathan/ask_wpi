@@ -4,8 +4,8 @@ import string
 import streamlit as st
 from dotenv import load_dotenv
 from react import react
-from rag.main import run_rag
-from finetuned_llm.inference import run_inference
+#from rag.main import run_rag
+#from finetuned_llm.inference import run_inference
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(current_dir, '..'))
@@ -23,10 +23,10 @@ query = ""
 st.title("Ask:red[WPI]")
 
 st.subheader("Chatbot Model")
-model = st.pills("", ["RAG", "ReACT", "Fine-Tuned LLM"], default="RAG")
+model = st.pills("HIDDEN_LABEL", ["RAG", "ReACT", "Fine-Tuned LLM"], default="RAG", label_visibility="hidden")
 
 st.subheader("Question")
-query = st.text_area("")
+query = st.text_area("HIDDEN_LABEL", label_visibility="hidden")
 
 if query:
     if model == "ReACT":

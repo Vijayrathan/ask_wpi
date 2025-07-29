@@ -82,8 +82,16 @@ def get_embedding(chunk):
     return embedding
 
 def retrieve(query):
+    if os.path.isdir("./chroma_db"):
+        chroma_db_path = "./chroma_db"
+    elif os.path.isdir("../chroma_db"):
+        chroma_db_path = "../chroma_db"
+    else:
+        print("Failed to loacate chroma_db directorory.")
+        sys.exit(1)
+
     try:
-        db_client=chromadb.PersistentClient(path='./chroma_db')
+        db_client=chromadb.PersistentClient(path=chroma_db_path)
         collection=db_client.get_collection("wpi_docs")
         query_embedding = get_embedding(query)
         results=collection.query(
